@@ -1,0 +1,264 @@
+
+.header-trangchu {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(1, 136, 70);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#content-left {
+    list-style: none;
+    margin-top: 10px;
+    height: 100%;
+    border-right: 2px solid #1b8110;
+    margin-left: 25px;
+    position: sticky;
+    top: 55px;
+    font-family: bahnschrift;
+}
+
+#content-left>li {
+    margin-top: 17px;
+}
+#content-left>li>a{
+    position: relative;
+    padding: 15px 20px;
+}
+#content-left>li>a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 5px;
+    background-color: rgb(16, 162, 91);
+    z-index: -1;
+    margin-bottom: 2px;
+    transition: height 0.25s ease, width 0.75s ease 0.25s;
+}
+#content-left>li>a:hover::before{
+    height: 100%;
+    width: 265px;
+}
+
+.thesp {
+    border: 1px solid rgb(221, 219, 219);
+    padding-bottom: 10px;
+}
+
+.btn_mua {
+    margin-left: 0px;
+    border: 2px solid rgb(1, 136, 70);
+    border-radius: 5px;
+}
+
+.btn_mua:hover {
+    background-color: rgb(1, 136, 70);
+    transition: all 1s ease;
+}
+
+.buy {
+    display: flex;
+    width: 191px;
+    height: 35px;
+    /* border: 1px solid rgb(1, 136, 70);
+    border-radius: 5px; */
+}
+
+.buy>a {
+    color: rgb(1, 136, 70);
+}
+
+.inputnumber {
+    float: right;
+}
+
+#content-center h6 {
+    color: red;
+}
+
+#trangchu {
+    list-style: none;
+}
+
+.a {
+    list-style: none;
+}
+
+.dn {
+    margin-top: 10px;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-trangchu {
+    list-style: none;
+    margin-left: 210px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.form_input {
+    margin-top: 13px;
+    width: 200px;
+}
+
+.btn-find {
+    margin-top: 10px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+}
+
+.find {
+    display: flex;
+    position: relative;
+}
+
+.loaisp>li {
+    margin-top: 10px;
+}
+
+.loaisp>li>a {
+    color: black;
+    font-weight: bold;
+}
+
+.loaisp>li>a:hover {
+    text-decoration: none;
+}
+
+.User {
+    margin-left: 500px;
+}
+
+.banner {
+    display: flex;
+}
+
+.user-icon>a>i {
+    color: white;
+}
+
+.user-icon {
+    margin-top: 13px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.header-center {
+    display: flex;
+    margin-left: 60px;
+}
+
+/* ------------------------------- */
+.hero {
+    margin-left: 40px;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.user-pic {
+    width: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: #1b8110;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3 {
+    font-weight: 500;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.sub-menu hr {
+    border: 0%;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link span {
+    font-weight: 600;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.gio {
+    height: 40px;
+    margin-left: 80px;
+}
+
+.sub-menu-link img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.sub-menu-link p {
+    width: 100%;
+}
+
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ------------------------------- */
+

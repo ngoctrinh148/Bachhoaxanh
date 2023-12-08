@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #fafafa;
+}
+.header-trangchu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(1, 136, 70);
+    position: sticky;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.logo-trangchu{
+    margin-bottom: -10px;
+    list-style: none;
+    margin-left: 80px;
+    font-size: 20px;
+    top: 5px;
+    position: absolute;
+}
+.hehe{
+    margin-left: 1150px;
+    background-color: transparent;
+}
+nav{
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: transparent;
+}
+.user-pic{
+    width: 40px;
+    /* margin-left: 30px; */
+    cursor: pointer;
+    background-color: #1b8110;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.open-menu{
+    max-height: 400px;
+}
+
+.sub-menu{
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h3{
+    font-weight: 500;
+}
+
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.sub-menu hr{
+    border: 0%;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link span{
+    font-weight: 600;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.sub-menu-link img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.sub-menu-link p{
+    width: 100%;
+}
+
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+ul>li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+}
+.content-menu{
+    display: flex;
+    margin-top: 100px;
+}
+/* .content-left{
+    margin-top: 100px;
+    height: 100%;
+    border-right: 2px solid #1b8110 ;
+    margin-left: 25px;
+} */
+/* .content-left>li{
+    margin-top: 17px;
+} */

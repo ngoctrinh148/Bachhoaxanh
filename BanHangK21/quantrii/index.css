@@ -1,0 +1,19 @@
+@charset 'utf8';
+input{
+    width: 300px;
+    height: 30px;
+    padding-top: 5px;
+}
+option{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+
+form > table > tr{
+    margin-bottom: 30px;
+}
+td{
+    margin-top: 5px;
+    padding-top: 5px;
+}
